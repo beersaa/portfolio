@@ -1,0 +1,52 @@
+body{
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: 'Anonymous Pro', Lato, LatoExtended, sans-serif;
+}
+
+#main{
+    background-color: white;
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+}
+
+#top{
+    height: 10vh;
+    width: 100vh;
+    background-color: beige;
+}
+
+#middle{
+    height: 80vh;
+    width: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+
+#left{
+    height: 80vh;
+    width: 50vh;
+    background-color: beige;
+    text-align: justify;
+}
+
+#text-middle{
+    letter-spacing: 3px;
+    line-height: 2vh;
+    
+}
+
+#left-bottom{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+#right{
+    height: 80vh;
+    width: 50vh;
+    background-color: blueviolet;
+    text-align: center;
+}
